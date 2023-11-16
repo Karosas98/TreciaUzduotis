@@ -97,7 +97,8 @@ int main()
             cin >> number2;
             
             gcd = GreatestCommonDivisor(number1, number2);
-            cout << gcd << endl;
+            cout << "Diziausias bendras daliklis: " << gcd << endl;
+            cout << endl;
         }
         if (action == 4) 
         {
